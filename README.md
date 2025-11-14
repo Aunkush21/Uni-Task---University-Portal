@@ -1,1 +1,1 @@
-This waw just a task given by my university
+This was just a task given by my university
