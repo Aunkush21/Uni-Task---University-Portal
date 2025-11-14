@@ -1,0 +1,175 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.light {
+  background: #f0f4f3;
+  color: #333;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.green {
+  background: #e8f5e9;
+  color: #1b5e20;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.green .navbar {
+  background-color: #1b5e20;
+}
+
+.green .theme-toggle {
+  background: #ffffff;
+  color: #1b5e20;
+}
+
+.green .theme-toggle:hover {
+  background: #a5d6a7;
+}
+
+.green .portal-card {
+  background: #ffffff;
+  color: #1b5e20;
+  box-shadow: 0 6px 16px rgba(0, 100, 0, 0.1);
+}
+
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+
+.logo-top {
+  height: 80px;
+}
+
+.theme-toggle {
+  padding: 8px 14px;
+  border: none;
+  background: #ffffff;
+  color: #2e7d32;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.theme-toggle:hover {
+  background: #e0f3ff;
+}
+
+.center-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.8rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 15px 0;
+  background-color: #2e7d32;
+  color: white;
+  width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+.description {
+  text-align: center;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.description h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+
+.portal-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.portal-card {
+  width: 300px;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.portal-card:hover {
+  transform: translateY(-5px);
+}
+
+.portal-card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.admin {
+  border-left: 5px solid #e74c3c;
+}
+
+.student {
+  border-left: 5px solid #3498db;
+}
+
+.parent {
+  border-left: 5px solid #2ecc71;
+}
+
+.dark .portal-card {
+  background: #1e293b;
+  color: white;
+}
